@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="io.cucumber.plugin" type="repository">
+    <properties maven-id="io.cucumber:cucumber-plugin:7.18.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-plugin/7.18.0/cucumber-plugin-7.18.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
