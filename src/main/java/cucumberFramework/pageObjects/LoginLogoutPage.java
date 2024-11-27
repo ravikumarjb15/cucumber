@@ -21,6 +21,9 @@ public class LoginLogoutPage {
 	@FindBy(xpath="//input[@type='email']")
 	public WebElement userName;
 	
+	@FindBy(xpath="//*[@aria-label='Search']")
+	public WebElement searchBtn;
+	
 	@FindBy(xpath="//input[@id='continue']")
 	WebElement Continue;
 	

@@ -15,6 +15,17 @@ public class loginLogoutPageStepDefinitions extends TestBase {
 	LoginLogoutPage loginPage = new LoginLogoutPage(driver);
 	WaitHelper waitHelper = new WaitHelper(driver);
 	
+	@Given("^I am on the home page URL \"([^\"]*)\"$")
+	public void i_am_on_the_home_page_URL(String arg1) throws Throwable {
+		driver.get(arg1);
+		//waitHelper = new WaitHelper(driver);
+	}
+	
+	@Then("^I should see search button$")
+	public void i_should_see_search_btn() throws Throwable {
+		loginPage.searchBtn.isDisplayed();
+	}
+	
 	@Given("^I am on the Login page URL \"([^\"]*)\"$")
 	public void i_am_on_the_Login_page_URL(String arg1) throws Throwable {
 		driver.get(arg1);
