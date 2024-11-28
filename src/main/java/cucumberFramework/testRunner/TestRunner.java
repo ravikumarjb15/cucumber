@@ -18,7 +18,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-@CucumberOptions(features = "src/test/resources/features/login/login_logout.feature", 
+@CucumberOptions(features = "src/test/resources/features/", 
 glue = { "cucumberFramework/stepdefinitions" }, 
 plugin = { "pretty", "html:target/cucumber-reports/cucumber-pretty.html",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
